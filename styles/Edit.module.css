@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  /*height: 100vh;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 30rem;
+  border: 1px solid #101010;
+  border-radius: 0.4rem;
+}
+
+.title {
+  /*font-size: 2rem;*/
+  color: #101010;
+  margin-bottom: 1rem;
+}
+.label {
+  color: #101010;
+}
+
+.updateInput {
+  width: 90%;
+  height: 2rem;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #101010;
+  border-radius: 0.4rem;
+  outline: none;
+  background-color: transparent;
+}
+.updateButton {
+  border: 1px solid #101010;
+  background-color: transparent;
+  color: #101010;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1rem;
+}
+
+.updateButton:hover {
+  transform: scale(1.1);
+}
