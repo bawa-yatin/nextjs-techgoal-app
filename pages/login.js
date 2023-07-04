@@ -15,7 +15,7 @@ const Login = () => {
 
   const { email, password } = form;
 
-  const handleChange = (e) => {
+  const handleChange = e => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   return (
@@ -44,7 +44,6 @@ const Login = () => {
               password,
             });
             if (error) alert(error.message);
-            // push to home page
             router.push("/");
           }}
           className={styles.button}
